@@ -36,4 +36,4 @@ class StyleSerializer(serializers.ModelSerializer):
     class Meta:
         """JSON serializer for style creator"""
         model = HairStyle
-        fields = ( 'id', 'label', 'clients')
+        fields = ( 'id', 'label', 'clients',)
